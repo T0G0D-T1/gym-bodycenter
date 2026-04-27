@@ -74,8 +74,8 @@ const Testimonials = () => {
 
                 <div className="flex flex-col mt-10 items-center relative before:absolute before:-bottom-6 before:left-30 before:w-20 before:h-1 before:rounded-lg before:bg-gradient-to-r before:from-amber-500 before:to-red-500 z-10">
                     <Text as="p" className="text-amber-500 lg:text-sm text-xs tracking-widest uppercase font-medium">{TestimonialTexts.firstText}</Text>
-                    <Text as="h1" className="text-zinc-100 lg:text-5xl md:text-4xl text-3xl">{TestimonialTexts.secondText}</Text>
-                    <Text as="h1" className="absolute text-zinc-500/20 md:left-24 lg:left-28 left-20 lg:text-9xl md:text-7xl text-6xl font-extrabold lg:-top-32 md:-top-20 -top-16 -z-10">05</Text>
+                    <Text as="h1" className="text-zinc-100 lg:text-5xl md:text-4xl text-3xl text-center w-full">{TestimonialTexts.secondText}</Text>
+                    <Text as="h1" className="absolute text-zinc-500/20 left-1/2 -translate-x-1/2 lg:text-9xl md:text-7xl text-6xl font-extrabold lg:-top-32 md:-top-20 -top-16 -z-10">05</Text>
                 </div>
 
                 {/* Testimonails */}
@@ -84,7 +84,7 @@ const Testimonials = () => {
                         {
                             TestimonialTexts.feedBacks.map((feedback, index) => (
                                 <div key={index} className="lg:px-6 md:px-4 w-full px-3">
-                                    <Card className="bg-zinc-800 w-full h-[250px] grid grid-cols-3 border-[0.01rem] border-amber-500/30">
+                                    <Card className="bg-zinc-800 w-full min-h-[250px] grid grid-cols-3 border-[0.01rem] border-amber-500/30">
                                         <div className="flex flex-col justify-center md:justify-start gap-1 col-span-2 lg:p-8 p-4">
                                             <Text as="h2" className="md:text-xl text-lg font-semibold text-zinc-300">{feedback.person}</Text>
                                             <Text as="h6" className="text-red-500 text-sm uppercase">{feedback.type}</Text>
@@ -92,6 +92,7 @@ const Testimonials = () => {
                                                 <q>{feedback.text}</q>
                                             </Text>
                                             <div className="flex mt-3 gap-2 items-center text-amber-500">
+                                                <Star size={12} color="currentColor" weight="fill" />
                                                 <Star size={12} color="currentColor" weight="fill" />
                                                 <Star size={12} color="currentColor" weight="fill" />
                                                 <Star size={12} color="currentColor" weight="fill" />
