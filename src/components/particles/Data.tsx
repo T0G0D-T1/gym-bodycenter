@@ -109,7 +109,7 @@ export const TestimonialTexts = {
     secondText: "Lo que dicen nuestros clientes",
     feedBacks: [
         {
-            text: "Llevo seis meses como miembro, y la comunidad cercana del gimnasio junto a sus entrenadores capacitados me han ayudado a superar mis metas fitness.",
+            text: "Llevo siete meses como miembro, y la comunidad cercana del gimnasio junto a sus entrenadores capacitados me han ayudado a superar mis metas fitness.",
             person: "Nicolas Contreras",
             type: "Cliente"
         },
