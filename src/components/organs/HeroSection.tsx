@@ -10,6 +10,8 @@ import { Button } from "../atoms/Button";
 import { ArrowCircleLeft, ArrowCircleRight, YoutubeLogo } from "@phosphor-icons/react";
 import StickyIcons from "../molecules/StickyIcons";
 import { Slide, Zoom } from "react-awesome-reveal";
+import { FacebookLogo, InstagramLogo, TwitterLogo} from "@phosphor-icons/react";
+
 
 
 const HeroSection = () => {
@@ -76,16 +78,28 @@ const HeroSection = () => {
                                     </Slide>
                                 </Text>
                                 <div className="flex items-center gap-8">
+                                  <Slide direction="up">
+                                    <a
+                                      href="https://www.instagram.com/bodycenter_cl/"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500 inline-block"
+                                    >
+                                      {hero.Button}
+                                    </a>
+                                  </Slide>
                                     <Slide direction="up">
-                                        <Button type="button" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500">
-                                            {hero.Button}
-                                        </Button>
-                                    </Slide>
-                                    <Slide direction="up">
-                                        <a href="/" className="flex items-center gap-2 text-red-500 hover:text-amber-500 group">
-                                            <YoutubeLogo size={20} color="currentColor" weight="fill" />
-                                            <Text as="span" className="text-zinc-100 group-hover:text-amber-500 uppercase text-xs">Watch reviews</Text>
-                                        </a>
+                                      <a
+                                        href="https://www.instagram.com/p/DSGZY0-AX5u/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center gap-2 text-red-500 hover:text-amber-500 group"
+                                      >
+                                        <InstagramLogo size={25} color="currentColor" weight="fill" />
+                                        <Text as="span" className="text-zinc-100 group-hover:text-amber-500 uppercase text-xs">
+                                          ¡Mira el gimnasio!
+                                        </Text>
+                                      </a>
                                     </Slide>
                                 </div>
                             </div>

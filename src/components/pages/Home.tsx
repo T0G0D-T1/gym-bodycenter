@@ -1,5 +1,5 @@
 import About from "../organs/About"
-import Blogs from "../organs/Blogs"
+//import Blogs from "../organs/Blogs"
 import Calculator from "../organs/Calculator"
 import Contact from "../organs/Contact"
 import HeroSection from "../organs/HeroSection"
@@ -17,7 +17,7 @@ const Home = () => {
             <Membership />
             <Calculator />
             <Testimonials />
-            <Blogs />
+            {/* <Blogs /> */}
             <Contact />
         </>
     )

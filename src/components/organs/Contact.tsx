@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <section className="w-full md:h-[400px] h-[500px] relative">
             <Image alt="Contact Image" className="w-full h-full" objectCover="object-cover object-top" image={ContactImg} />
-            <div className="w-full h-full absolute top-0 left-0 bg-zinc-900/70 flex flex-col justify-center items-center gap-2">
+            <div className="w-full h-full absolute top-0 left- bg-zinc-900/70 flex flex-col justify-center items-center gap-2">
                 <Text as="p" className="tracking-widest text-amber-500 uppercase md:text-sm text-xs font-medium">
                     {ContactTexts.firstText}
                 </Text>
@@ -19,7 +19,7 @@ const Contact = () => {
                 <Text as="p" className="text-zinc-100 md:w-1/2 w-4/5 text-center text-lg my-6">
                     {ContactTexts.paragraph}
                 </Text>
-                <Button className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500" type="button">
+                <Button className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500" type="button" onClick={() => window.open("https://wa.me/+56947977983", "_blank")}>
                     {ContactTexts.button}
                 </Button>
             </div>
