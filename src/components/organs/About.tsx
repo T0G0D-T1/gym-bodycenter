@@ -17,7 +17,7 @@ const About = () => {
                             <Text as="p" className="text-amber-500 lg:text-sm text-xs tracking-widest uppercase font-medium">{AboutTexts.firstText}</Text>
                             <Text as="h1" className="text-zinc-100 lg:text-5xl md:text-4xl text-3xl">{AboutTexts.secondText}</Text>
                             <Text as="h1" className="absolute text-zinc-500/20 md:-left-3 left-0 lg:text-9xl md:text-7xl text-6xl font-extrabold lg:-top-36 md:-top-20 -top-16 -z-10">01</Text>
-                            Fade</div>
+                            </div>
                         <Text as="h2" className="text-zinc-200 mt-10 mb-4 text-lg">{AboutTexts.caption}</Text>
                         <Text as="p" className="text-zinc-400 text-justify text-base">{AboutTexts.paragraph1}</Text>
                     </Fade>

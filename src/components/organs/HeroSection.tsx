@@ -3,6 +3,8 @@ import { Image } from "../atoms/Image"
 import HeroImg1 from "../../assets/hero/1.jpeg"
 import HeroImg2 from "../../assets/hero/2.jpeg"
 import HeroImg3 from "../../assets/hero/3.jpeg"
+import HeroImg4 from "../../assets/hero/4.jpg"
+import HeroImg5 from "../../assets/hero/5.jpg"
 import { HeroTexts } from "../particles/Data";
 import Slider from "react-slick";
 import { Text } from "../atoms/Text";
@@ -47,9 +49,9 @@ const HeroSection = () => {
     const renderProfileImg = useCallback((element: number) => {
         switch (element) {
             case 0:
-                return HeroImg1;
+                return HeroImg4;
             case 1:
-                return HeroImg2;
+                return HeroImg5;
             case 2:
                 return HeroImg3;
             default:

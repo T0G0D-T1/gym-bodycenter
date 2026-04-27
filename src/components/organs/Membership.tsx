@@ -18,7 +18,7 @@ const Membership = () => {
                         <Card className={`w-full flex flex-col items-center gap-4 border border-zinc-500  transition-all duration-200 cursor-pointer hover:border-red-500/50 ${index === 1 ? "lg:py-16 py-10" : "py-10"}`} key={index}>
                             <Text as="h2" className="text-zinc-100 flex items-end gap-0.5">
                                 <span className="font-extrabold text-2xl">$</span>
-                                <span className={`font-extrabold ${card.amount === 49 ? "text-6xl" : "text-5xl"}`}>{card.amount}</span>
+                                <span className={`font-extrabold ${card.amount === 49 ? "text-6xl" : "text-5xl"}`}>{new Intl.NumberFormat('es-CL').format(card.amount)}</span>
                                 <span className="font-medium text-lg">/{card.duration}</span>
                             </Text>
                             <Text as="h3" className={`capitalize text-base font-semibold w-full py-2 text-center  text-zinc-100 my-3 ${card.caption.includes('12') ? "bg-gradient-to-r to-amber-500 from-red-500" : "bg-zinc-800"}`}>{card.caption}</Text>
