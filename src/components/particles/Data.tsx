@@ -9,7 +9,7 @@ export const NavLinks = [
     },
     {
         name: "Horarios",
-        url: "/horario"
+        url: "/horarios"
     },
     {
         name: "Galeria",
@@ -158,49 +158,49 @@ export const BlogTexts = {
 }
 
 export const FooterTexts = {
-    underLogoText: "We are more than just a gym; we are a passionate and supportive fitness family dedicated to helping you achieve your health and wellness goals. Our mission is to create a positive and empowering environment that inspires you to challenge yourself, embrace a healthy lifestyle, and discover the best version of yourself.",
+    underLogoText: "Somos mucho más que un gimnasio; somos una comunidad fitness apasionada y cercana, dedicada a ayudarte a cumplir tus metas de salud y bienestar. Nuestra misión es crear un ambiente positivo y motivador que te inspire a superarte, llevar una vida saludable y descubrir tu mejor versión.",
     quickLinks: {
-        caption: "Quick Links",
+        caption: "Links rápidos",
         links: [
             {
                 name: "Home",
                 url: "/"
             },
             {
-                name: "About Us",
+                name: "Sobre nosotros",
                 url: "/about"
             },
             {
-                name: "Schedule",
-                url: "/schedule"
+                name: "Horarios",
+                url: "/horarios"
             },
             {
-                name: "Gallery",
-                url: "/gallery"
+                name: "Galería",
+                url: "/galeria"
             },
             {
-                name: "News",
-                url: "/news"
+                name: "Noticias",
+                url: "/noticias"
             },
             {
-                name: "Contacts",
-                url: "/contact"
+                name: "Contactos",
+                url: "/contacto"
             },
         ]
     },
     contacts: {
-        caption: "Quick Contacts",
+        caption: "Contáctanos",
         names: [
             {
-                name: "11567 Santa Monica Blvd, Los Angeles, CA 90025, United States",
+                name: "14 norte #931, Viña del mar, Chile",
             },
             {
-                name: "gym_nex@example.com",
+                name: "@bodycenter_cl",
             },
             {
-                name: "+1 424-248-8496",
+                name: "+56947977983",
             }
         ]
     },
-    copyright: "Copyright 2023. All Right Reserved"
+    copyright: "Copyright 2026. Todos los derechos reservados."
 }
