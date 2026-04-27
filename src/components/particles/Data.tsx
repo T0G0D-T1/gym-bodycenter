@@ -26,7 +26,7 @@ export const NavLinks = [
 export const HeroTexts = [
     {
         Heading: "¡Desata tu fuerza interior!",
-        Paragraph: "¡Bienvenido a Body Center, donde el fitness se encuentra con la diversión! ¡Prepárate para desatar tu fuerza interior y transformar tu vida!",
+        Paragraph: "¡Bienvenido a Body Center, donde el fitness se encuentra con la pasión! ¡Prepárate para desatar tu fuerza interior y transformar tu vida!",
         Button: "¡Únete ahora!"
     },
     {
