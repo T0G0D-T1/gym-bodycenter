@@ -1,4 +1,3 @@
-<img src="https://github.com/Signor1/gym-nex/blob/bc543fd5d43498e288322dc8394280cfe7863724/GymNEx.png"/>
 
 # Gym Landing Page - React and TypeScript
 
@@ -12,8 +11,8 @@ This is a gym landing page built using React and TypeScript, aimed at showcasing
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
+
 
 ## Getting Started
 
@@ -31,8 +30,8 @@ Before proceeding with the installation, make sure you have the following prereq
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/gym-landing-page.git
-cd gym-landing-page
+git clone https://github.com/T0G0D-T1/gym-bodycenter
+cd gym-bodycenter
 ```
 
 2. Install the project dependencies:
@@ -65,7 +64,7 @@ Or using yarn:
 yarn start
 ```
 
-The application will now be accessible at `http://localhost:3000/` in your web browser.
+The application will now be accessible at `http://localhost:5137/` in your web browser.
 
 ## Features
 
@@ -83,10 +82,7 @@ The application will now be accessible at `http://localhost:3000/` in your web b
 - TailwindCSS - CSS framework for designing web pages.
 - Vite - a frontend tool that is used for building fast and optimized web applications.
 
-## Contributing
+## License
 
-We welcome contributions from the community to improve this project further. To contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+This project is licensed under the MIT License.
 
-## Demo
-
-[View Demo](https://gym-nex.vercel.app/)
