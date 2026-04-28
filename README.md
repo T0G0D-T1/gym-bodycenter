@@ -30,8 +30,8 @@ Before proceeding with the installation, make sure you have the following prereq
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/gym-landing-page.git
-cd gym-landing-page
+git clone https://github.com/T0G0D-T1/gym-bodycenter
+cd gym-bodycenter
 ```
 
 2. Install the project dependencies:
