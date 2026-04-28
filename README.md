@@ -1,4 +1,3 @@
-<img src="https://github.com/Signor1/gym-nex/blob/bc543fd5d43498e288322dc8394280cfe7863724/GymNEx.png"/>
 
 # Gym Landing Page - React and TypeScript
 
@@ -65,7 +64,7 @@ Or using yarn:
 yarn start
 ```
 
-The application will now be accessible at `http://localhost:3000/` in your web browser.
+The application will now be accessible at `http://localhost:5137/` in your web browser.
 
 ## Features
 
@@ -82,11 +81,3 @@ The application will now be accessible at `http://localhost:3000/` in your web b
 - HTML5 - Markup language for structuring web pages.
 - TailwindCSS - CSS framework for designing web pages.
 - Vite - a frontend tool that is used for building fast and optimized web applications.
-
-## Contributing
-
-We welcome contributions from the community to improve this project further. To contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## Demo
-
-[View Demo](https://gym-nex.vercel.app/)
