@@ -82,7 +82,7 @@ const HeroSection = () => {
                                 <div className="flex items-center gap-8">
                                   <Slide direction="up">
                                     <a
-                                      href="https://www.instagram.com/bodycenter_cl/"
+                                      href="https://wa.me/+56947977983"
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500 inline-block"

@@ -9,6 +9,9 @@ import NavBar from "./components/organs/NavBar"
 import Home from "./components/pages/Home";
 import Footer from "./components/organs/Footer";
 
+import React from "react";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+
 
 
 function App() {
@@ -27,6 +30,19 @@ function App() {
         <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
+      <FloatingWhatsApp
+        phoneNumber="56947977983"
+        accountName="Body Center SPA"
+        chatMessage="Hola 👋 ¿En qué podemos ayudarte?"
+        statusMessage="Respondemos rápido 💪"
+        placeholder="Escribe tu consulta..."
+        notification={true}
+        notificationDelay={5}
+        allowClickAway={true}
+        allowEsc={true}
+        avatar="/favicon.jpg"
+        darkMode={true}
+      />
     </div>
   )
 }
