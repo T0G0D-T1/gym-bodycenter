@@ -11,8 +11,7 @@ This is a gym landing page built using React and TypeScript, aimed at showcasing
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Getting Started
 
