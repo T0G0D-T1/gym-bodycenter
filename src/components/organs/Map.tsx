@@ -4,7 +4,7 @@ import { MapPin} from "@phosphor-icons/react"
 const Map = () => {
   return (
     <section className="w-full h-auto bg-zinc-950 pt-24 md:pt-28 lg:pt-32">
-      <main className="w-full max-w-6xl mx-auto grid lg:grid-cols-[1fr_1.4] items-start px-6 md:px-10 lg:px-20 gap-10 py-12">
+      <main className="w-full max-w-6xl mx-auto grid lg:grid-cols-[1fr_1.4] items-start px-6 md:px-10 lg:px-20 gap-10 py-12"> {/* Probar mapa en 2 posiciones: [1fr_1.4] y [1fr_1.4fr]  */}
         <div className="w-full flex flex-col items-start gap-4">
           <div className="flex flex-col items-start relative before:absolute before:-bottom-6 before:left-0 before:w-20 before:h-1 before:rounded-lg before:bg-gradient-to-r before:from-amber-500 before:to-red-500">
             <Text as="p" className="text-amber-500 lg:text-sm text-xs tracking-widest uppercase font-medium">

@@ -14,6 +14,8 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 import Ubicacion from "./components/pages/Ubicacion";
 
+import Horario from "./components/pages/Horario";
+
 
 
 function App() {
@@ -30,7 +32,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/ubicacion" element={<Ubicacion />} />
+        <Route path="/Ubicacion" element={<Ubicacion />} />
+        <Route path="/Horario" element={<Horario />} />
       </Routes>
       <Footer />
       <FloatingWhatsApp
