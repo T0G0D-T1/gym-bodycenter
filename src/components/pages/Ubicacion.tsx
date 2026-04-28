@@ -6,8 +6,8 @@ import Map from '../organs/Map'
 const Ubicacion = () => {
     return (
     <>
-            <Map />
-        </>
+      <Map/>
+   </>
   )
 }
 

@@ -4,23 +4,23 @@ export const NavLinks = [
         url: "/"
     },
     {
-        name: "Sobre nosotros",
-        url: "/about"
+        name: "Ubicación",
+        url: "/ubicacion"
     },
     {
         name: "Horarios",
         url: "/horarios"
     },
-    {   name: "Ubicación",
-        url: "/ubicacion"
+    {   name: "Contacto",
+        url: "/contacto"
     },
     {
         name: "Galeria",
         url: "/galeria"
     },
     {
-        name: "Contacto",
-        url: "/contacto"
+        name: "Sobre nosotros",
+        url: "/about"
     },
 ];
 
@@ -130,25 +130,28 @@ export const FooterTexts = {
         caption: "Links rápidos",
         links: [
             {
-                name: "Home",
-                url: "/"
-            },
-            {
-                name: "Sobre nosotros",
-                url: "/about"
-            },
-            {
-                name: "Horarios",
-                url: "/horarios"
-            },
-            {
-                name: "Galería",
-                url: "/galeria"
-            },
-            {
-                name: "Contactos",
-                url: "/contacto"
-            },
+        name: "Home",
+        url: "/"
+    },
+    {
+        name: "Ubicación",
+        url: "/ubicacion"
+    },
+    {
+        name: "Horarios",
+        url: "/horarios"
+    },
+    {   name: "Contacto",
+        url: "/contacto"
+    },
+    {
+        name: "Galeria",
+        url: "/galeria"
+    },
+    {
+        name: "Sobre nosotros",
+        url: "/about"
+    },
         ]
     },
     contacts: {
