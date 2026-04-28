@@ -9,7 +9,7 @@ export const NavLinks = [
     },
     {
         name: "Horarios",
-        url: "/horarios"
+        url: "/horario"
     },
     {   name: "Contacto",
         url: "/contacto"
@@ -19,8 +19,8 @@ export const NavLinks = [
         url: "/galeria"
     },
     {
-        name: "Sobre nosotros",
-        url: "/about"
+        name: "Reglamento",
+        url: "/reglamento"
     },
 ];
 
@@ -139,7 +139,7 @@ export const FooterTexts = {
     },
     {
         name: "Horarios",
-        url: "/horarios"
+        url: "/horario"
     },
     {   name: "Contacto",
         url: "/contacto"

@@ -32,8 +32,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Ubicacion" element={<Ubicacion />} />
-        <Route path="/Horario" element={<Horario />} />
+        <Route path="/ubicacion" element={<Ubicacion />} />
+        <Route path="/horario" element={<Horario />} />
       </Routes>
       <Footer />
       <FloatingWhatsApp
