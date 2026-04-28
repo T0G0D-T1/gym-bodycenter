@@ -11,6 +11,7 @@ This is a gym landing page built using React and TypeScript, aimed at showcasing
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [License](#license)
 
 
 ## Getting Started
@@ -80,3 +81,8 @@ The application will now be accessible at `http://localhost:5137/` in your web b
 - HTML5 - Markup language for structuring web pages.
 - TailwindCSS - CSS framework for designing web pages.
 - Vite - a frontend tool that is used for building fast and optimized web applications.
+
+## License
+
+This project is licensed under the MIT License.
+
