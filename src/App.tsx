@@ -12,6 +12,8 @@ import Footer from "./components/organs/Footer";
 import React from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
+import Ubicacion from "./components/pages/Ubicacion";
+
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/ubicacion" element={<Ubicacion />} />
       </Routes>
       <Footer />
       <FloatingWhatsApp

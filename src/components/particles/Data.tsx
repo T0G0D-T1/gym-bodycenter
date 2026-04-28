@@ -11,6 +11,9 @@ export const NavLinks = [
         name: "Horarios",
         url: "/horarios"
     },
+    {   name: "Ubicación",
+        url: "/ubicacion"
+    },
     {
         name: "Galeria",
         url: "/galeria"
